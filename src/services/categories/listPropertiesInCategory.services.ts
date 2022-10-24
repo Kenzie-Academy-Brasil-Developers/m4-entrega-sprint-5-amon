@@ -1,4 +1,3 @@
-import { Properties } from "../../entities/properties.entity";
 import { Categories } from "../../entities/categories.entity";
 import { AppError } from "../../errors/appError";
 import AppDataSource from "../../data-source";
