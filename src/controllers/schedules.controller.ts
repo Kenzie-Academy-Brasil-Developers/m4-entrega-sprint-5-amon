@@ -6,7 +6,7 @@ import { Request, Response } from "express";
 const createSchedulesController = async (req: Request, res: Response) => {
   const schedule: IScheduleRequest = req.body;
   const createdSchedule = await createSchedulesService(schedule);
-  return res.status(201).json(createdSchedule);
+  return res.status(201).json({ message: createdSchedule });
 };
 
 const listPropertySchedulesController = async (req: Request, res: Response) => {

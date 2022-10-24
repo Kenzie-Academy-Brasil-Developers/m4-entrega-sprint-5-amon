@@ -42,7 +42,7 @@ export class Properties {
     () => SchedulesProperties,
     (schedulesProperties) => schedulesProperties.property
   )
-  schedulesProperties: SchedulesProperties[];
+  schedules: SchedulesProperties[];
 
   @ManyToOne(() => Categories)
   category: Categories;
