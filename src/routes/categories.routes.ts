@@ -20,3 +20,5 @@ categoriesRoutes.get("", listCategoriesController);
 categoriesRoutes.get("/:id/properties", listPropertiesInCategoryController);
 
 export default categoriesRoutes;
+
+// sdsd
